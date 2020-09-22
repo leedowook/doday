@@ -1,0 +1,41 @@
+/*자주 쓰일것같은 부트스트랩 클래스관련 변경or 추가사항 */
+.btn-primary:focus,.btn-primary.focus{
+	color: white;
+    background-color: #ff8080;
+    border-color: #ff8080;
+}
+.btn-secondary:focus,.btn-secondary.focus{
+	 color: #212529;
+    background-color: #ff9b9b;
+    border-color: #ff8e8e;
+}
+.btn-success:focus,.btn-success.focus {
+    color: #212529;
+    background-color: #11D3BC;
+    border-color: #11D3BC
+}
+.btn-info:focus,.btn-info.focus {
+    color: #212529;
+    background-color: #f7d89d;
+    border-color: #f7d89d
+}
+.btn-warning:focus,.btn-warning.focus {
+    color: #212529;
+    background-color: #ff7962;
+    border-color: #ff7962
+}
+.btn-danger:focus,.btn-danger.focus {
+    color: #fff;
+    background-color: #ec0000;
+    border-color: #ec0000
+}
+
+
+.no-padding{
+	padding-left :0px;
+	padding-right :0px ;
+}
+img.full-img{
+	width:100%;
+	height:100%;
+}
