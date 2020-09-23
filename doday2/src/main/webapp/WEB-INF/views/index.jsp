@@ -27,7 +27,7 @@
 			<div class="row">
 				<div class="col-12 searchPlace">
 					<div class="form-group row">
-						<div class="col-1 align-self-center align-item-center"> 
+						<div class="col-12 text-left"> 
 					    	검색창
 					    </div>
 					    <div class="col-12">

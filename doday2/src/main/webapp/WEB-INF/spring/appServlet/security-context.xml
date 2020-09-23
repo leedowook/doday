@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:sec="http://www.springframework.org/schema/security"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/security 
+    http://www.springframework.org/schema/security/spring-security.xsd">
+    <!-- <sec:http auto-config="true" use-expressions="true">
+        <sec:form-login username-parameter="loginid"
+            password-parameter="loginpwd" 
+            login-page="/mind/loginhome"
+            default-target-url="/userhome"
+            login-processing-url="/mind/login"
+            authentication-failure-url="/userhome"
+            always-use-default-target='true' 
+             />
+        <sec:logout logout-url="/logout" logout-success-url="/loginhome" />
+    </sec:http>
+    <sec:authentication-manager>
+        <sec:authentication-provider>
+            <sec:jdbc-user-service
+                data-source-ref="dataSource"
+                users-by-username-query="select id, pwd, enabled from user where id=? and enabled=1"
+                authorities-by-username-query="select id, authority from authority where id=?" />
+            <sec:password-encoder ref="pwdEncoder" />
+        </sec:authentication-provider>
+    </sec:authentication-manager> -->
+
+</beans>

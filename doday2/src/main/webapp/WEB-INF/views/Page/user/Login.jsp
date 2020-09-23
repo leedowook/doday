@@ -7,21 +7,21 @@
 	<!-- 스크립트 -->
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-3.4.1.min.js"> </script>
-	<script src="resource/js/custom/login.js"></script>
+	<script src="/js/custom/login.js"></script>
 	
 	<!-- 부트스트랩 -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	
 	<!-- 스타일 -->
-	<link href="resource/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="resource/css/bootstrapCustom.css" rel="stylesheet" type="text/css">
-	<link href="resource/css/user/style_login.css" rel="stylesheet" type="text/css">
+	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/css/bootstrapCustom.css" rel="stylesheet" type="text/css">
+	<link href="/css/user/style_login.css" rel="stylesheet" type="text/css">
 	
 	<title>오늘뭐해</title>
 
 </head>
 <body>
-	<jsp:include page="/include/topBar.jsp" flush="true"/>
+	<jsp:include page="include/topBar.jsp" flush="true"/>
 	<div class="container">
 		<div class="blank"></div>
 		<div class="row">

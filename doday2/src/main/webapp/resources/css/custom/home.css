@@ -51,7 +51,7 @@ div.mainBody{
 
 #simpleSearchText{
 	float:left;
-	width:96%!important;
+	width:calc(100% - 40px)!important;
 }
 
 .serachBtn{

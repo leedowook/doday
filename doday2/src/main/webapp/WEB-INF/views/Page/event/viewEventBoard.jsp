@@ -13,17 +13,17 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	
 	<!-- 스타일 -->
-	<link href="resource/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="resource/css/bootstrapCustom.css" rel="stylesheet" type="text/css">
-	<link href="resource/css/board/style_boardView.css" rel="stylesheet" type="text/css">
+	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/css/bootstrapCustom.css" rel="stylesheet" type="text/css">
+	<link href="/css/board/style_boardView.css" rel="stylesheet" type="text/css">
 	
 	<title>오늘뭐해</title>
 	
-	<script src="resource/js/event/view.js"></script>
+	<script src="/js/event/view.js"></script>
 	
 </head>
 <body>
-	<jsp:include page="/include/topBar.jsp" flush="true"/>
+	<jsp:include page="include/topBar.jsp" flush="true"/>
 	<div class="co ntainer">
 		<div class="row">
 			<div class="blank"></div>

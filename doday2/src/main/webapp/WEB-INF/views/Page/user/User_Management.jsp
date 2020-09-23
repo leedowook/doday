@@ -22,7 +22,7 @@
 	
 </head>
 <body>
-	<jsp:include page="/include/topBar.jsp" flush="true"/>
+	<jsp:include page="include/topBar.jsp" flush="true"/>
 	<div class="mainBody">
 		<div class="container">
 			<div class="row">

@@ -11,24 +11,25 @@
 	<script src="http://code.jquery.com/jquery-3.4.1.min.js"> </script>
 
 	<!-- smartEdit -->
-	<script type="text/javascript" src="../se2/js/HuskyEZCreator.js" charset="utf-8"></script>
+	<script type="text/javascript" src="/plugin/se2/js/HuskyEZCreator.js" charset="utf-8"></script>
 	
 
 	<!-- 부트스트랩 -->
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<!-- 스타일 -->
-		<link href="resource/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="resource/css/bootstrapCustom.css" rel="stylesheet" type="text/css">
-		<link href="resource/css/board/style_boardWrite.css?after" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="resource/js/event/write.js"></script>
+	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/css/bootstrapCustom.css" rel="stylesheet" type="text/css">
+	<link href="/css/board/style_boardWrite.css?after" rel="stylesheet" type="text/css">
+	<!-- 스크립트 -->
+	<script type="text/javascript" src="/js/event/write.js"></script>
 	<title>오늘뭐해</title>
 
 </head>
 <body>
 
 
-	<jsp:include page="/include/topBar.jsp" flush="true"/>
+	<jsp:include page="include/topBar.jsp" flush="true"/>
 	<div class="container">
 		<div class="row">
 			<div class="blank"></div>
@@ -79,7 +80,7 @@
 	nhn.husky.EZCreator.createInIFrame({ 
 		oAppRef : oEditors, 
 		elPlaceHolder : "boardContent", 
-		sSkinURI : "../se2/SmartEditor2Skin.html", 
+		sSkinURI : "/plugin/se2/SmartEditor2Skin.html", 
 		fCreator : "createSEditor2", 
 		htParams : { 
 			// 툴바 사용 여부 (true:사용/ false:사용하지 않음) 

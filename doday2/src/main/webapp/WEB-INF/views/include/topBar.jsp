@@ -12,7 +12,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-dark bg-pink navbar-expand-sm">
-		<a class="navbar-brand" href="/doday/">오늘뭐해</a>
+		<a class="navbar-brand" href="/">오늘뭐해</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
