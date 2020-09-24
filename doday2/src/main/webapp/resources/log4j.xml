@@ -11,7 +11,7 @@
     </appender>
 
     <!-- Application Loggers -->
-    <logger name="com.re.mind">
+    <logger name="com.project.doday">
         <level value="info" />
     </logger>
 
